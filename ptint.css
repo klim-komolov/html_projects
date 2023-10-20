@@ -1,0 +1,28 @@
+header,
+.sidebar,
+footer {
+    display: none;
+}
+
+body {
+    background: white;
+    color: black;
+}
+
+.container {
+    max-width: 100%;
+    padding: 20px;
+}
+
+.content {
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+img, table {
+    display: none;
+}
