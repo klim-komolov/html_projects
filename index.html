@@ -7,11 +7,10 @@
     <title>Форма обратной связи</title>
 </head>
 <body>
-</div>
 <div> 
-    <div class="login-container"action="https://httpbin.org/post" enctype="multipart/form-data">
+    <div class="login-container">
     <h2 class="login-title">Логин</h2>
-    <form class="login-form">
+    <form class="login-form" action="https://httpbin.org/post" enctype="multipart/form-data">
         <div class="form-group">
             <label for="login">Логин</label>
             <input id="login" name="login" required>
@@ -26,6 +25,7 @@
         </div>
         <button type="submit">Войти</button>
     </form>
+    </div>
 </div>
     <h1>Форма обратной связи</h1>
     <form method="post" action="https://httpbin.org/post" enctype="multipart/form-data">
@@ -47,7 +47,7 @@
 
             <div>
                 <input type="radio" name="source" id="friends" value="friends" checked>
-                <label for="frieds">Друзья</label>
+                <label for="friends">Друзья</label>
             </div>
             <div>
                 <input type="radio" name="source" id="advertising" value="advertising">
@@ -69,7 +69,7 @@
         <div>
             <fieldset>
             <label for="msg">Сообщение</label>
-        <textarea name="" id="" cols="30" rows="10">Текст по умолчанию</textarea>
+        <textarea name="message" id="msg" cols="30" rows="10">Текст по умолчанию</textarea>
             </fieldset>
         </div>
         
